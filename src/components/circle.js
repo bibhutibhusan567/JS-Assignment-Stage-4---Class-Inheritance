@@ -1,7 +1,7 @@
 // import using require
 const Shape = require('./shape');
 // declare class
-class Circle{
+class Circle extends Shape{
     constructor(){
         super();
         // this.color = "black";
